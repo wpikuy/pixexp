@@ -1,0 +1,68 @@
+body{
+	height : 100%;
+	width : 100%;
+	margin : 0px;
+}
+body{
+	height : 100%;
+	width : 100%;
+	margin : 0px;
+	background-image: url(../img/deco.png);
+	background-color : #333;
+	box-shadow: inset 0 0 150px rgba(0,0,0,.7);
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}	
+.unlock-button{
+	width : 200px;
+	height : 200px;
+	background : url(../img/button.png);
+}
+.unlock-button:hover{
+	cursor : pointer;
+	background : url(../img/button-hover.png);
+}
+.unlock-button:active{
+	cursor : pointer;
+	background : url(../img/button-active.png);
+}
+.passinput{
+	width : 50%;
+	text-align:center;
+	background-color : #e4e4e4;
+	margin-top: 30px;
+	max-width: 400px;
+}
+.button{
+	margin-top: 40px;
+}
+#wrapper{
+	height : 300px;
+	width : 100%;
+	float: left;
+	display: table-cell;
+	vertical-align : middle;
+	margin-left: auto;
+	margin-right: auto;
+}
+.title{
+	margin-bottom: 10%;
+	color: #e4e4e4;
+	width: 300px;
+	text-align:center;
+	//border-bottom: solid 1px #e4e4e4;
+}
+p{
+	color: #e4e4e4;
+	text-align: center;
+	margin-top: 10px;
+}
+#copyright{
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	width: 100%;
+	color: white;
+}

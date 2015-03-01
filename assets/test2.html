@@ -1,0 +1,236 @@
+﻿<html lang="zh_CN">
+<head>
+	<title>Pictures Administration - Trove Convert</title>
+	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="wrapper container">
+		<div id="aside" class="col-xs-5 col-sm-3">
+			<p id="title">Trove Convert</p>
+			<div class="divide"></div>
+			<button id="download" class="btn btn-default" style="background-color: rgba(0, 0, 0, 0); color: #ffffff;" type="submit">Download Selected Pictures</button>
+			<button id="goto" class="btn btn-default" style="background-color: rgba(0, 0, 0, 0); color: #ffffff;" type="submit">Goto Requests Administration</button>
+			<div style="float: center; margin: 30px 0">
+				<button class="btn btn-default" style="background-color: rgba(0, 0, 0, 0); color: #ffffff;" type="submit">prev</button>
+				<p style="display: inline; margin: 0 10px; color: white;">1</p>
+				<button class="btn btn-default" style="background-color: rgba(0, 0, 0, 0); color: #ffffff; display:inline;" type="submit">next</button>
+			</div>
+			<p id="copyright">Copyright © Crimson Work. All rights reserved.</p>
+		</div>
+		<div id="main" class="col-xs-7 col-sm-9">
+			<div class="row">
+				<div id="pic-div">
+					<div class="pic-frame col-xs-2" onclick="pic_click('pic-1');">
+						<div id="pic-1" class="pic-container" style="background-image:url(http://127.0.0.1/pixexp/public/minpic?id=1);">
+							<input class="pic-check" type="checkbox" style="margin: 8px auto auto 8px;"></input>
+							<div class="pic-info-box">
+								<p class="pic-info">123</p>
+							</div>
+						</div>
+					</div>
+					<div class="pic-frame col-xs-2" onclick="pic_click('pic-2');">
+						<div id="pic-2" class="pic-container" style="background-image:url(http://127.0.0.1/pixexp/public/minpic?id=2);">
+							<input class="pic-check" type="checkbox" style="margin: 8px auto auto 8px;"></input>
+							<div class="pic-info-box">
+								<p class="pic-info">123</p>
+							</div>
+						</div>
+					</div>
+					<div class="pic-frame col-xs-2" onclick="pic_click('pic-3');">
+						<div id="pic-3" class="pic-container">
+							<input class="pic-check" type="checkbox" style="margin: 8px auto auto 8px;"></input>
+							<div class="pic-info-box">
+								<p class="pic-info">123</p>
+							</div>
+						</div>
+					</div>
+					<div class="pic-frame col-xs-2" onclick="pic_click('pic-4');">
+						<div id="pic-4" class="pic-container">
+							<input class="pic-check" type="checkbox" style="margin: 8px auto auto 8px;"></input>
+							<div class="pic-info-box">
+								<p class="pic-info">123</p>
+							</div>
+						</div>
+					</div>
+					<div class="pic-frame col-xs-2" onclick="pic_click('pic-5');">
+						<div id="pic-5" class="pic-container">
+							<input class="pic-check" type="checkbox" style="margin: 8px auto auto 8px;"></input>
+							<div class="pic-info-box">
+								<p class="pic-info">123</p>
+							</div>
+						</div>
+					</div>
+					<div class="pic-frame col-xs-2" onclick="pic_click('pic-6');">
+						<div id="pic-6" class="pic-container">
+							<input class="pic-check" type="checkbox" style="margin: 8px auto auto 8px;"></input>
+							<div class="pic-info-box">
+								<p class="pic-info">123</p>
+							</div>
+						</div>
+					</div>
+					<div class="pic-frame col-xs-2" onclick="pic_click('pic-7');">
+						<div id="pic-7" class="pic-container">
+							<input class="pic-check" type="checkbox" style="margin: 8px auto auto 8px;"></input>
+							<div class="pic-info-box">
+								<p class="pic-info">123</p>
+							</div>
+						</div>
+					</div>
+					<div class="pic-frame col-xs-2" onclick="pic_click('pic-8');">
+						<div id="pic-8" class="pic-container">
+							<input class="pic-check" type="checkbox" style="margin: 8px auto auto 8px;"></input>
+							<div class="pic-info-box">
+								<p class="pic-info">123</p>
+							</div>
+						</div>
+					</div>
+					<div class="pic-frame col-xs-2" onclick="pic_click('pic-9');">
+						<div id="pic-9" class="pic-container">
+							<input class="pic-check" type="checkbox" style="margin: 8px auto auto 8px;"></input>
+							<div class="pic-info-box">
+								<p class="pic-info">123</p>
+							</div>
+						</div>
+					</div>
+					<div class="pic-frame col-xs-2" onclick="pic_click('pic-10');">
+						<div id="pic-10" class="pic-container">
+							<input class="pic-check" type="checkbox" style="margin: 8px auto auto 8px;"></input>
+							<div class="pic-info-box">
+								<p class="pic-info">123</p>
+							</div>
+						</div>
+					</div>
+					<div class="pic-frame col-xs-2" onclick="pic_click('pic-11');">
+						<div id="pic-11" class="pic-container">
+							<input class="pic-check" type="checkbox" style="margin: 8px auto auto 8px;"></input>
+							<div class="pic-info-box">
+								<p class="pic-info">123</p>
+							</div>
+						</div>
+					</div>
+					<div class="pic-frame col-xs-2" onclick="pic_click('pic-12');">
+						<div id="pic-12" class="pic-container">
+							<input class="pic-check" type="checkbox" style="margin: 8px auto auto 8px;"></input>
+							<div class="pic-info-box">
+								<p class="pic-info">123</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<style>
+		body{
+			height : 100%;
+			width : 100%;
+			margin : 0px;
+		}
+		#wrapper{
+			height : 100%;
+			width : 100%;
+		}
+		#aside{
+			height : 100%;
+			text-align: center;
+			background-color: #68507E;
+		}
+		#main{
+			height : 100%;
+			background-color: white;
+			background-image: url(./deco2.png);
+		}
+		#title{
+			margin-top: 30px;
+			margin-bottom: 30px;
+			font-size: 32px;
+			color: white;
+		}
+		#pic-div{
+			margin: 30px;
+		}
+		.pic-frame{
+			width: 172px;
+			height: 172px;
+			padding: 10px;
+			margin: 15px 0 0 15px;
+			//border-left: solid 2px #68507E;
+			border-bottom: solid 5px #68507E;
+			//background-color: #68507e;
+		}
+		.pic-frame:hover{
+			cursor: pointer;
+		}
+		.pic-container{
+			margin: 0;
+			width: 150px;
+			height: 150px;
+			background-image: url(./button.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		.pic-info-box{
+			margin-top: 107px;
+			width: 100%;
+			height: 20px;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.4);
+		}
+		.pic-info{
+			width: 100%;
+			color: white;
+			text-align: center;
+			text-shadow: 1px 1px 1px black;
+		}
+		.pic-check{
+			width: 15px;
+			height: 15px;
+			display: inline;
+			box-shadow: inset 0 0 rpx rgba(0, 0, 0, 1);
+		}
+		.divide{
+			margin: 20px 0;
+			float: center;
+			height: 0;
+			border-bottom: solid 2px white;
+		}
+		#download{
+			width: 220px;
+			margin: 10px 0;
+		}
+		#goto{
+			width: 220px;
+			margin: 10px 0;
+		}
+		#copyright{
+			position: absolute;
+			bottom: 10px;
+			text-align: center;
+			width: 90%;
+			color: white;
+		}
+	</style>
+	<script type="text/javascript">
+		var pic_click = function(name){
+			//console.write('error');
+			var query = '#' + name + ' input';
+			var obj = $(query);
+			var frame = $('#' +  name).parent();
+			if(!obj.prop("checked")){
+				obj.prop("checked", true);
+				frame.css('border-bottom', 'solid 5px red');
+			}
+			else{
+				obj.prop("checked", false);
+				frame.css('border-bottom', 'solid 5px 68507E');
+			}
+		}
+		//pic_click('pic-1');
+	</script>
+</body>
+</html>

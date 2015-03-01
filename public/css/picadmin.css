@@ -1,0 +1,91 @@
+body{
+	height : 100%;
+	width : 100%;
+	margin : 0px;
+}
+#wrapper{
+	height : 100%;
+	width : 100%;
+}
+#aside{
+	height : 100%;
+	text-align: center;
+	background-color: #68507E;
+}
+#main{
+	height : 100%;
+	background-color: white;
+	background-image: url(../img/deco2.png);
+}
+#title{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 32px;
+	color: white;
+}
+#pic-div{
+	margin: 30px;
+}
+.pic-frame{
+	width: 172px;
+	height: 172px;
+	padding: 10px;
+	margin: 15px 0 0 15px;
+	//border-left: solid 2px #68507E;
+	border-bottom: solid 5px #68507E;
+	//background-color: #68507e;
+}
+.pic-frame:hover{
+	cursor: pointer;
+}
+.pic-container{
+	margin: 0;
+	width: 150px;
+	height: 150px;
+	background-image: url(./button.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.pic-info-box{
+	margin-top: 107px;
+	width: 100%;
+	height: 20px;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.pic-info{
+	width: 100%;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.pic-check{
+	width: 15px;
+	height: 15px;
+	display: inline;
+	box-shadow: inset 0 0 rpx rgba(0, 0, 0, 1);
+}
+.divide{
+	margin: 20px 0;
+	float: center;
+	height: 0;
+	border-bottom: solid 2px white;
+}
+#download{
+	width: 220px;
+	margin: 10px 0;
+}
+#goto{
+	width: 220px;
+	margin: 10px 0;
+}
+#copyright{
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	width: 90%;
+	color: white;
+}
